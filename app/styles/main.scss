@@ -1,0 +1,92 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #B0BEC5;
+  font-family: 'Raleway', sans-serif;
+}
+
+#address{
+  display: none;
+}
+
+#content{
+  background-color: #ECEFF1;
+  box-shadow: 10px 10px 5px #263238;
+  border-color: #263238;
+  border-size: 0px 2px 0 2px;
+  color: #263238;
+  padding: 0;
+}
+
+.header,
+.row{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row{
+  margin: 0;
+}
+
+.header {
+  padding: 100px 0 0 0;
+  background-color: #607D8B;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    line-height: 40px;
+    padding-bottom: 19px;
+    color: #ECEFF1;
+    font-weight: 700;
+  }
+
+  .contact{
+    height: 20px;
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    background-color: #F57F17;
+  }
+
+  .contact path{
+    fill: #ECEFF1;
+  }
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.company{
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+.competencies{
+  h4{
+    clear: both;
+    padding-top: 5px;
+  }
+}

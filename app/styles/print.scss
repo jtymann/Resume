@@ -1,0 +1,60 @@
+@media print{
+
+  .nav-pills{
+  	display: none;
+  }
+
+  .header {
+    padding: 0 0 0 0;
+    background-color: #607D8B;
+    border-bottom: 2px solid black;
+    h1{
+    	padding-bottom: 0;
+    }
+  }
+
+  #address{
+      display: block;
+      top: 20px;
+      position: relative;
+  }
+
+  .competencies{
+    h4{
+      display: inline;
+      float: left;
+      margin: 0;
+      padding-top: 0;
+      clear: left;
+      padding-right: 5px;
+      font-size: 16px;
+    }
+
+    h4::after {
+      content: ":";
+    }
+
+    ul{
+      list-style-type: none;
+
+      li{
+        width: auto !important;
+        padding: 0;
+        padding-top: 0px;
+        padding-right: 3px;
+      }
+
+      li::after{
+        content: ",";
+      }
+
+      li:last-child::after{
+        content: "";
+      }
+    }
+  }
+
+  h3{
+    margin-top: 5px;
+  }
+}
